@@ -12,8 +12,8 @@ import AlamofireObjectMapper
 
 class ViewController: UIViewController {
     
-    let body = ["cpf": "88452921349"]
-    let url = "http:vh.victorysolutions.com.br/vs3/mobile/verificacpf"
+    let body = ["cpf": ""]
+    let url = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
