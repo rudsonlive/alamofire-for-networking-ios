@@ -15,6 +15,6 @@ class CompaniesMain: Mappable {
     }
     
     func mapping(map: Map) {
-        companies <- map["companies"]
+        companies <- map[Util.KeyCompanies.companies]
     }
 }

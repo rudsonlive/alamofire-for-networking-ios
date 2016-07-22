@@ -55,6 +55,7 @@
                                         <connections>
                                             <outlet property="imgIcon" destination="aRO-L0-3oc" id="5nW-cP-Kfe"/>
                                             <outlet property="txtName" destination="PUv-fc-rdx" id="UCU-Dn-Egq"/>
+                                            <segue destination="HVy-pH-2ad" kind="show" identifier="DetailSegue" id="jo0-Ut-fEf"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -80,6 +81,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="874" y="-470"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="bzC-3N-Rf0">
+            <objects>
+                <viewController storyboardIdentifier="DetailViewController" id="HVy-pH-2ad" customClass="DetailViewController" customModule="AlamofireSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xey-1G-LNL"/>
+                        <viewControllerLayoutGuide type="bottom" id="a1f-QI-1UR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dz2-xd-a4R">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sBT-BI-KH1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1526" y="-470"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="kI2-lL-wiC">

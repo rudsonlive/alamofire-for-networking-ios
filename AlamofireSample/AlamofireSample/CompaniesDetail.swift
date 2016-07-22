@@ -16,7 +16,7 @@ class CompaniesDetail: Mappable {
     }
     
     func mapping(map: Map) {
-        url <- map["url"]
-        description <- map["description"]
+        url <- map[Util.KeyCompanies.url]
+        description <- map[Util.KeyCompanies.description]
     }
 }

@@ -13,11 +13,9 @@ import AlamofireObjectMapper
 class MainViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     var companies: [Companies] = []
+    
     var refreshControl: UIRefreshControl!
-    
     @IBOutlet weak var tableView: UITableView!
-    
-    let url = "https://raw.githubusercontent.com/rudsonlive/alamofire-for-networking-ios/master/companies.json"
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,7 +34,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     func loadCompaniesAll(){
         
         self.refreshControl.beginRefreshing()
-        Alamofire.request(.GET, url, encoding: .JSON)
+        Alamofire.request(.GET, Util.Url.urlCompanies, encoding: .JSON)
             .validate()
             .responseObject{ (response: Response<CompaniesMain, NSError>) in
                 
@@ -55,6 +53,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
     
     // UITableViewDataSource
+    
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int{
         // Defining the line number of my tableView
         return companies.count
@@ -75,7 +74,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell{
         // By setting the information in the cell (list item)
-        let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as! MainTableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier(Util.Identifier.mainTableViewCell, forIndexPath: indexPath) as! MainTableViewCell
         
         let item = companies[indexPath.row]
         cell.txtName?.text = item.name
@@ -86,5 +85,10 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
     
     // UITableViewDataSource
+    
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        print(segue.identifier)
+    }
 }
 

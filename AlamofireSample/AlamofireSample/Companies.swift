@@ -17,8 +17,8 @@ class Companies: Mappable {
     }
     
     func mapping(map: Map) {
-        id <- map["id"]
-        name <- map["name"]
-        detail <- map["detail"]
+        id <- map[Util.KeyCompanies.id]
+        name <- map[Util.KeyCompanies.name]
+        detail <- map[Util.KeyCompanies.detail]
     }
 }
