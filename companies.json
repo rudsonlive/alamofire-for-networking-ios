@@ -1,0 +1,74 @@
+{
+    "companies": [{
+            "id": 1,
+            "name": "Apple",
+            "detail": {
+                "description": "Apple Inc. é uma empresa multinacional norte-americana que tem o objetivo de projetar e comercializar produtos eletrônicos de consumo, software de computador e computadores pessoais.",
+                "url": "https://www.apple.com/br/"
+            }
+        },
+
+        {
+            "id": 2,
+            "name": "Facebook",
+            "detail": {
+                "description": "Facebook é uma rede social lançada em 4 de fevereiro de 2004, operado e de propriedade privada da Facebook Inc.. Em 4 de outubro de 2012, o Facebook atingiu a marca de 1 bilhão de usuários ativos, sendo por isso a maior rede social em todo o mundo.",
+                "url": "https://www.facebook.com/"
+            }
+        },
+
+        {
+            "id": 3,
+            "name": "Github",
+            "detail": {
+                "description": "GitHub é um Serviço de Web Hosting Compartilhado para projetos que usam o controle de versionamento Git. É escrito em Ruby on Rails pelos desenvolvedores da Logical Awesome (Chris Wanstrath, PJ Hyett e Tom Preston - Wernder).",
+                "url": "https://github.com/"
+            }
+        },
+
+        {
+            "id": 4,
+            "name": "Google",
+            "detail": {
+                "description": "Google Inc. é uma empresa multinacional de serviços online e software dos Estados Unidos. O Google hospeda e desenvolve uma série de serviços e produtos baseados na internet e gera lucro principalmente através da publicidade pelo AdWords.",
+                "url": "https://www.google.com.br"
+            }
+        },
+
+        {
+            "id": 5,
+            "name": "Instagram",
+            "detail": {
+                "description": "Instagram é uma rede social de fotos para usuários de Android e iPhone. Basicamente se trata de um aplicativo gratuito que pode ser baixado e, a partir dele, é possível tirar fotos com o celular, aplicar efeitos nas imagens e compartilhar com seus amigos.",
+                "url": "https://www.instagram.com/"
+            }
+        },
+
+        {
+            "id": 6,
+            "name": "Linkedin",
+            "detail": {
+                "description": "LinkedIn é uma rede social de negócios fundada em dezembro de 2002 e lançada em 5 de maio de 2003. É comparável a redes de relacionamentos, e é principalmente utilizada por profissionais.",
+                "url": "https://br.linkedin.com"
+            }
+        },
+
+        {
+            "id": 7,
+            "name": "Microsoft",
+            "detail": {
+                "description": "Microsoft Corporation é uma empresa transnacional americana com sede em Redmond, Washington, que desenvolve, fabrica, licencia, apoia e vende softwares de computador, produtos eletrônicos, computadores e serviços pessoais.",
+                "url": "https://www.microsoft.com/pt-br/"
+            }
+        },
+
+        {
+            "id": 8,
+            "name": "Twitter",
+            "detail": {
+                "description": "Twitter é uma rede social e um servidor para microblogging, que permite aos usuários enviar e receber atualizações pessoais de outros contatos (em textos de até 140 caracteres, conhecidos como tweets), por meio do website do serviço, por SMS e por softwares específicos de gerenciamento.",
+                "url": "https://twitter.com"
+            }
+        }
+    ]
+}
