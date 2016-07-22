@@ -1,5 +1,5 @@
 //
-//  DataCPF.swift
+//  CompaniesMain.swift
 //  AlamofireSample
 //
 //  Created by Rudson Lima on 7/21/16.
@@ -7,18 +7,14 @@
 //
 
 import ObjectMapper
-class DataCPF: Mappable {
-    
-    var status: Int? = -1
-    var cpf: String? = ""
-    var contas: [Contas]?
+class CompaniesMain: Mappable {
+
+    var companies: [Companies]?
     
     required init?(_ map: Map){
     }
     
     func mapping(map: Map) {
-        status <- map["status"]
-        cpf <- map["cpf"]
-        contas <- map["contas"]
+        companies <- map["companies"]
     }
 }

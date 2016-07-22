@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		095878BE41A2442114A005A2 /* Pods_AlamofireSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97881908D1B9D101601333B4 /* Pods_AlamofireSample.framework */; };
 		E29634A11D41068B006EFF97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29634A01D41068B006EFF97 /* AppDelegate.swift */; };
-		E29634A31D41068B006EFF97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29634A21D41068B006EFF97 /* ViewController.swift */; };
+		E29634A31D41068B006EFF97 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29634A21D41068B006EFF97 /* MainViewController.swift */; };
 		E29634A61D41068C006EFF97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E29634A41D41068C006EFF97 /* Main.storyboard */; };
 		E29634A81D41068C006EFF97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E29634A71D41068C006EFF97 /* Assets.xcassets */; };
 		E29634AB1D41068C006EFF97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E29634A91D41068C006EFF97 /* LaunchScreen.storyboard */; };
-		E2FA710C1D41201600ACC4C1 /* Contas.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FA710B1D41201600ACC4C1 /* Contas.swift */; };
-		E2FA710E1D41206F00ACC4C1 /* DataCPF.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FA710D1D41206F00ACC4C1 /* DataCPF.swift */; };
+		E2D81DB71D41B5E200A73FB7 /* CompaniesMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D81DB61D41B5E200A73FB7 /* CompaniesMain.swift */; };
+		E2D81DBC1D41C61100A73FB7 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D81DBB1D41C61100A73FB7 /* MainTableViewCell.swift */; };
+		E2FA710C1D41201600ACC4C1 /* CompaniesDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FA710B1D41201600ACC4C1 /* CompaniesDetail.swift */; };
+		E2FA710E1D41206F00ACC4C1 /* Companies.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FA710D1D41206F00ACC4C1 /* Companies.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,13 +24,15 @@
 		97881908D1B9D101601333B4 /* Pods_AlamofireSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlamofireSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E296349D1D41068B006EFF97 /* AlamofireSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlamofireSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E29634A01D41068B006EFF97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E29634A21D41068B006EFF97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E29634A21D41068B006EFF97 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		E29634A51D41068C006EFF97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E29634A71D41068C006EFF97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E29634AA1D41068C006EFF97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E29634AC1D41068C006EFF97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E2FA710B1D41201600ACC4C1 /* Contas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contas.swift; sourceTree = "<group>"; };
-		E2FA710D1D41206F00ACC4C1 /* DataCPF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataCPF.swift; sourceTree = "<group>"; };
+		E2D81DB61D41B5E200A73FB7 /* CompaniesMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompaniesMain.swift; sourceTree = "<group>"; };
+		E2D81DBB1D41C61100A73FB7 /* MainTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		E2FA710B1D41201600ACC4C1 /* CompaniesDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompaniesDetail.swift; sourceTree = "<group>"; };
+		E2FA710D1D41206F00ACC4C1 /* Companies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Companies.swift; sourceTree = "<group>"; };
 		F3C7D08355629CE51A8A94F9 /* Pods-AlamofireSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamofireSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlamofireSample/Pods-AlamofireSample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,16 +86,42 @@
 		E296349F1D41068B006EFF97 /* AlamofireSample */ = {
 			isa = PBXGroup;
 			children = (
-				E29634A01D41068B006EFF97 /* AppDelegate.swift */,
-				E29634A21D41068B006EFF97 /* ViewController.swift */,
-				E29634A41D41068C006EFF97 /* Main.storyboard */,
 				E29634A71D41068C006EFF97 /* Assets.xcassets */,
-				E29634A91D41068C006EFF97 /* LaunchScreen.storyboard */,
+				E2D81DBA1D41C11400A73FB7 /* Controller */,
+				E2D81DB91D41C10A00A73FB7 /* View */,
+				E2D81DB51D41B5A200A73FB7 /* Model */,
+				E29634A01D41068B006EFF97 /* AppDelegate.swift */,
 				E29634AC1D41068C006EFF97 /* Info.plist */,
-				E2FA710B1D41201600ACC4C1 /* Contas.swift */,
-				E2FA710D1D41206F00ACC4C1 /* DataCPF.swift */,
 			);
 			path = AlamofireSample;
+			sourceTree = "<group>";
+		};
+		E2D81DB51D41B5A200A73FB7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E2FA710B1D41201600ACC4C1 /* CompaniesDetail.swift */,
+				E2FA710D1D41206F00ACC4C1 /* Companies.swift */,
+				E2D81DB61D41B5E200A73FB7 /* CompaniesMain.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E2D81DB91D41C10A00A73FB7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E29634A41D41068C006EFF97 /* Main.storyboard */,
+				E29634A91D41068C006EFF97 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E2D81DBA1D41C11400A73FB7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E29634A21D41068B006EFF97 /* MainViewController.swift */,
+				E2D81DBB1D41C61100A73FB7 /* MainTableViewCell.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,9 +246,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2FA710E1D41206F00ACC4C1 /* DataCPF.swift in Sources */,
-				E2FA710C1D41201600ACC4C1 /* Contas.swift in Sources */,
-				E29634A31D41068B006EFF97 /* ViewController.swift in Sources */,
+				E2FA710E1D41206F00ACC4C1 /* Companies.swift in Sources */,
+				E2FA710C1D41201600ACC4C1 /* CompaniesDetail.swift in Sources */,
+				E29634A31D41068B006EFF97 /* MainViewController.swift in Sources */,
+				E2D81DB71D41B5E200A73FB7 /* CompaniesMain.swift in Sources */,
+				E2D81DBC1D41C61100A73FB7 /* MainTableViewCell.swift in Sources */,
 				E29634A11D41068B006EFF97 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,6 +368,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AlamofireSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.liveo.AlamofireSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -348,6 +381,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AlamofireSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.liveo.AlamofireSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";

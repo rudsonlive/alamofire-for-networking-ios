@@ -1,5 +1,5 @@
 //
-//  Contas.swift
+//  CompaniesDetail.swift
 //  AlamofireSample
 //
 //  Created by Rudson Lima on 7/21/16.
@@ -7,16 +7,16 @@
 //
 
 import ObjectMapper
-class Contas: Mappable {
+class CompaniesDetail: Mappable {
     
-    var id: Int? = -1
-    var name: String? = ""
+    var url: String? = ""
+    var description: String? = ""
     
     required init?(_ map: Map){
     }
     
     func mapping(map: Map) {
-        id <- map["id"]
-        name <- map["name"]
+        url <- map["url"]
+        description <- map["description"]
     }
 }
