@@ -93,7 +93,7 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
         case 0: // back            
             self.navigationController?.popViewControllerAnimated(true)
         default:
-            <#code#>
+            break
         }
     }    
 }
