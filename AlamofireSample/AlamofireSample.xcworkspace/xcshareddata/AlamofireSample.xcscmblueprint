@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F2AFFB57B776C62652A06093D42A1BADB09B183E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F2AFFB57B776C62652A06093D42A1BADB09B183E" : 0,
+    "AE5EFA4B2F2FC2ABFF48B96979EC155676D3C8EF" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BEE52A22-084A-45E8-B7E3-C72061D1A3E8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F2AFFB57B776C62652A06093D42A1BADB09B183E" : "alamofire-for-networking-ios\/",
+    "AE5EFA4B2F2FC2ABFF48B96979EC155676D3C8EF" : "..\/Maps\/maps-ios"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "AlamofireSample",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "AlamofireSample\/AlamofireSample.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/rudsonlive\/maps-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AE5EFA4B2F2FC2ABFF48B96979EC155676D3C8EF"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/rudsonlive\/alamofire-for-networking-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F2AFFB57B776C62652A06093D42A1BADB09B183E"
+    }
+  ]
+}

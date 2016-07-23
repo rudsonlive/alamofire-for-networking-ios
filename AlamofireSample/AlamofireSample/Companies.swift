@@ -8,17 +8,13 @@
 
 import ObjectMapper
 class Companies: Mappable {
-    
-    var id: Int? = 0
-    var name: String? = ""
-    var detail: CompaniesDetail?
+
+    var companies: [Company]?
     
     required init?(_ map: Map){
     }
     
     func mapping(map: Map) {
-        id <- map[Util.KeyCompanies.id]
-        name <- map[Util.KeyCompanies.name]
-        detail <- map[Util.KeyCompanies.detail]
+        companies <- map[Util.KeyCompanies.companies]
     }
 }

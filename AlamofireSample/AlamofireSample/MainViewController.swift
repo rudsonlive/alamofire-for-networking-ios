@@ -12,9 +12,10 @@ import AlamofireObjectMapper
 
 class MainViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    var companies: [Companies] = []
-    
+    var companies: [Company] = []
     var refreshControl: UIRefreshControl!
+    
+    @IBOutlet weak var txtTitle: UILabel!
     @IBOutlet weak var tableView: UITableView!
     
     override func viewDidLoad() {
@@ -25,7 +26,10 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
     
     func configureAllView(){
+        txtTitle.text = Util.Title.companies
+        
         refreshControl = UIRefreshControl()
+        refreshControl.tintColor = UIColor(red: 0.000, green: 0.502, blue: 1.000, alpha: 1.000)
         refreshControl.addTarget(self, action: #selector(loadCompaniesAll), forControlEvents: UIControlEvents.ValueChanged)
         
         tableView.addSubview(refreshControl)
@@ -36,12 +40,12 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         self.refreshControl.beginRefreshing()
         Alamofire.request(.GET, Util.Url.urlCompanies, encoding: .JSON)
             .validate()
-            .responseObject{ (response: Response<CompaniesMain, NSError>) in
+            .responseObject{ (response: Response<Companies, NSError>) in
                 
                 switch response.result {
-                case .Success(let companiesMain):
+                case .Success(let companies):
                     if response.result.value != nil{
-                        self.companies = companiesMain.companies!
+                        self.companies = companies.companies!
                         self.tableView.reloadData()
                     }
                 case .Failure(let error):
@@ -85,10 +89,19 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
     
     // UITableViewDataSource
-    
-    
+        
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        print(segue.identifier)
+        // Quando uma segue é chamada (link no storyboard)
+        
+        let cell = sender as! MainTableViewCell // Criando uma constante da minha custom UITableViewCell (MainTableViewCell)
+        let detailView = segue.destinationViewController as! DetailViewController // Criando uma constante da minha tela DetailViewController
+        
+        let company = companies[cell.tag] // Obtendo o objeto do item que foi clicado
+        detailView.company = company // Enviando o obj "company" para a tela DetailViewController
+    }
+    
+    override func preferredStatusBarStyle() -> UIStatusBarStyle {
+        return UIStatusBarStyle.LightContent
     }
 }
 

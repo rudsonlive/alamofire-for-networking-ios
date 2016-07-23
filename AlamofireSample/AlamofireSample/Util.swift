@@ -29,5 +29,14 @@ class Util{
     
     struct Identifier {
         static let mainTableViewCell = "Cell"
+        static let mapViewController = "MapViewController"        
+    }
+    
+    struct BarButtonItemTitle {
+        static let map = "Map"
+    }
+    
+    struct FontName {
+        static let helveticaNeue = "Helvetica Neue"
     }
 }
