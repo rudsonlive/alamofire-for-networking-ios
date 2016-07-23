@@ -29,7 +29,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         txtTitle.text = Util.Title.companies
         
         refreshControl = UIRefreshControl()
-        refreshControl.tintColor = UIColor(red: 0.000, green: 0.502, blue: 1.000, alpha: 1.000)
+        refreshControl.tintColor = UIColor(red: 0.135, green: 0.490, blue: 0.969, alpha: 1.000)
         refreshControl.addTarget(self, action: #selector(loadCompaniesAll), forControlEvents: UIControlEvents.ValueChanged)
         
         tableView.addSubview(refreshControl)

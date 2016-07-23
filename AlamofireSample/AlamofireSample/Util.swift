@@ -29,7 +29,8 @@ class Util{
     
     struct Identifier {
         static let mainTableViewCell = "Cell"
-        static let mapViewController = "MapViewController"        
+        static let mapViewController = "MapViewController"
+        static let webSiteViewController = "WebSiteViewController"
     }
     
     struct BarButtonItemTitle {

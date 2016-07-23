@@ -44,7 +44,10 @@ class DetailViewController: UIViewController {
             self.navigationController?.pushViewController(mapViewController, animated: true)
 
         case 2: // Open site
-            print("Site")
+            let webSiteViewController = self.storyboard?.instantiateViewControllerWithIdentifier(Util.Identifier.webSiteViewController) as! WebSiteViewController
+            webSiteViewController.company = company
+            self.navigationController?.pushViewController(webSiteViewController, animated: true)
+
         default: break
         }
     }
