@@ -20,6 +20,8 @@ class Util{
         static let url = "url"
         static let companies = "companies"
         static let description = "description"
+        static let latitude = "latitude"
+        static let longitude = "longitude"
     }
     
     struct Title {

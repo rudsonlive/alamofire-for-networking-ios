@@ -22,7 +22,6 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
         super.viewDidLoad()
         
         txtTitle.text = company.name
-        
         configureLocationManager();
     }
     
@@ -36,11 +35,18 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
         }
         
         mapView.showsUserLocation = true
-        locationManager.startUpdatingLocation()
+        configureMapView()
     }
     
-    func configureMapView(coordinate: CLLocationCoordinate2D, region: MKCoordinateRegion){
+    func configureMapView(){
         // Setando informação ao marcador do mapa
+        locationManager.startUpdatingLocation()
+        
+        let coordinate = CLLocationCoordinate2D(latitude: company.detail!.latitude, longitude: company.detail!.longitude)
+        
+        let center = CLLocationCoordinate2DMake(company.detail!.latitude, company.detail!.longitude)
+        
+        let region = MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: 0.02, longitudeDelta: 0.02))
         
         let annotation = MKPointAnnotation()
         
@@ -71,21 +77,6 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
         anView!.backgroundColor = UIColor.clearColor()
         anView!.canShowCallout = true
         return anView
-    }
-    
-    // CLLocationManagerDelegate
-    func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation]){
-        
-        let location = locations.last
-        let center = CLLocationCoordinate2DMake(location!.coordinate.latitude, location!.coordinate.longitude)
-        
-        let region = MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: 0.02, longitudeDelta: 0.02))
-        
-        configureMapView(location!.coordinate, region: region)
-    }
-    
-    func locationManager(manager: CLLocationManager, didFailWithError error: NSError){
-        print("Errors: " + error.localizedDescription)
     }
     
     @IBAction func onActionClick(sender: UIButton) {
