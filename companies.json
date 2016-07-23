@@ -4,7 +4,9 @@
             "name": "Apple",
             "detail": {
                 "description": "Apple Inc. é uma empresa multinacional norte-americana que tem o objetivo de projetar e comercializar produtos eletrônicos de consumo, software de computador e computadores pessoais.",
-                "url": "https://www.apple.com/br/"
+                "url": "https://www.apple.com/br/",
+                "latitude": -3.731862,
+                "longitude": -38.526670
             }
         },
 
@@ -13,7 +15,9 @@
             "name": "Facebook",
             "detail": {
                 "description": "Facebook é uma rede social lançada em 4 de fevereiro de 2004, operado e de propriedade privada da Facebook Inc.. Em 4 de outubro de 2012, o Facebook atingiu a marca de 1 bilhão de usuários ativos, sendo por isso a maior rede social em todo o mundo.",
-                "url": "https://www.facebook.com/"
+                "url": "https://www.facebook.com/",
+                "latitude": -3.731862,
+                "longitude": -38.526670                
             }
         },
 
@@ -22,7 +26,9 @@
             "name": "Github",
             "detail": {
                 "description": "GitHub é um Serviço de Web Hosting Compartilhado para projetos que usam o controle de versionamento Git. É escrito em Ruby on Rails pelos desenvolvedores da Logical Awesome (Chris Wanstrath, PJ Hyett e Tom Preston - Wernder).",
-                "url": "https://github.com/"
+                "url": "https://github.com/",
+                "latitude": -3.731862,
+                "longitude": -38.526670
             }
         },
 
@@ -31,7 +37,10 @@
             "name": "Google",
             "detail": {
                 "description": "Google Inc. é uma empresa multinacional de serviços online e software dos Estados Unidos. O Google hospeda e desenvolve uma série de serviços e produtos baseados na internet e gera lucro principalmente através da publicidade pelo AdWords.",
-                "url": "https://www.google.com.br"
+                "url": "https://www.google.com.br",
+                "latitude": -3.731862,
+                "longitude": -38.526670
+
             }
         },
 
@@ -40,7 +49,9 @@
             "name": "Instagram",
             "detail": {
                 "description": "Instagram é uma rede social de fotos para usuários de Android e iPhone. Basicamente se trata de um aplicativo gratuito que pode ser baixado e, a partir dele, é possível tirar fotos com o celular, aplicar efeitos nas imagens e compartilhar com seus amigos.",
-                "url": "https://www.instagram.com/"
+                "url": "https://www.instagram.com/",
+                "latitude": -3.731862,
+                "longitude": -38.526670                
             }
         },
 
@@ -49,7 +60,9 @@
             "name": "Linkedin",
             "detail": {
                 "description": "LinkedIn é uma rede social de negócios fundada em dezembro de 2002 e lançada em 5 de maio de 2003. É comparável a redes de relacionamentos, e é principalmente utilizada por profissionais.",
-                "url": "https://br.linkedin.com"
+                "url": "https://br.linkedin.com",
+                "latitude": -3.731862,
+                "longitude": -38.526670                
             }
         },
 
@@ -58,7 +71,9 @@
             "name": "Microsoft",
             "detail": {
                 "description": "Microsoft Corporation é uma empresa transnacional americana com sede em Redmond, Washington, que desenvolve, fabrica, licencia, apoia e vende softwares de computador, produtos eletrônicos, computadores e serviços pessoais.",
-                "url": "https://www.microsoft.com/pt-br/"
+                "url": "https://www.microsoft.com/pt-br/",
+                "latitude": -3.731862,
+                "longitude": -38.526670                
             }
         },
 
@@ -67,7 +82,9 @@
             "name": "Twitter",
             "detail": {
                 "description": "Twitter é uma rede social e um servidor para microblogging, que permite aos usuários enviar e receber atualizações pessoais de outros contatos (em textos de até 140 caracteres, conhecidos como tweets), por meio do website do serviço, por SMS e por softwares específicos de gerenciamento.",
-                "url": "https://twitter.com"
+                "url": "https://twitter.com",
+                "latitude": -3.731862,
+                "longitude": -38.526670                
             }
         }
     ]
