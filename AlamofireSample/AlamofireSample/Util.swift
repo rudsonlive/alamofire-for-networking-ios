@@ -15,18 +15,18 @@ class Util{
     
     struct KeyCompanies {
         static let id = "id"
+        static let url = "url"
         static let name = "name"
         static let detail = "detail"
-        static let url = "url"
-        static let companies = "companies"
-        static let description = "description"
         static let latitude = "latitude"
         static let longitude = "longitude"
+        static let companies = "companies"
+        static let description = "description"
     }
     
     struct Title {
-        static let companies = "Companies"
         static let detail = "Detalhe"
+        static let companies = "Companies"
     }
     
     struct Identifier {
