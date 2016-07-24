@@ -1,14 +1,18 @@
 # Sample with Alamofire
 Using the library Alamofire
 
-....<br>
+Alamofire is a study project for IOS using Swift.<br>
+The project has four screens (List, Details, Map and WebSite)<br>
 
-<img src="">
+<a href="https://github.com/Alamofire/Alamofire">Alamofire</a> used the library to make the request and get the json. Using the library <a href="https://github.com/tristanhimmelman/AlamofireObjectMapper">AlamofireObjectMapper</a> I do parse the json to my Companies object.<br>
 
-# On the screens
+Everything in the design is very simple and there are some comments in the code for better understanding of some functionality.<br>
 
-Home: ...
-- ...
+You can see how the project was going to the <a href="https://github.com/rudsonlive/alamofire-for-networking-ios/tree/master/Image/screenshot">screenshot folder (Iphone 6s plus)</a>.
+
+I hope that this project can help other developers like me who are starting in the world IOS.<br>
+
+<img src="https://github.com/rudsonlive/alamofire-for-networking-ios/blob/master/Image/image_companies.png">
 
 # It was used to develop
 - XCode Version 7.3.1 (7D1014)
