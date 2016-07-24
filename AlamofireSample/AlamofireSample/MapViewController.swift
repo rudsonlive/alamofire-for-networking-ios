@@ -87,8 +87,4 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
             break
         }
     }
-    
-    override func preferredStatusBarStyle() -> UIStatusBarStyle {
-        return UIStatusBarStyle.LightContent
-    }    
 }

@@ -99,9 +99,5 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         let company = companies[cell.tag] // Obtendo o objeto do item que foi clicado
         detailView.company = company // Enviando o obj "company" para a tela DetailViewController
     }
-    
-    override func preferredStatusBarStyle() -> UIStatusBarStyle {
-        return UIStatusBarStyle.LightContent
-    }
 }
 

@@ -42,8 +42,4 @@ class WebSiteViewController: UIViewController, UIWebViewDelegate {
     @IBAction func onActionClick(sender: UIButton) {
         self.navigationController?.popViewControllerAnimated(true)
     }
-    
-    override func preferredStatusBarStyle() -> UIStatusBarStyle {
-        return UIStatusBarStyle.LightContent
-    }    
 }

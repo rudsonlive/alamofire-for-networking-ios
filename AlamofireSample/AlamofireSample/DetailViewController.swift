@@ -51,8 +51,4 @@ class DetailViewController: UIViewController {
         default: break
         }
     }
-    
-    override func preferredStatusBarStyle() -> UIStatusBarStyle {
-        return UIStatusBarStyle.LightContent
-    }    
 }
