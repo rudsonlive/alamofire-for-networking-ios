@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		095878BE41A2442114A005A2 /* Pods_AlamofireSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97881908D1B9D101601333B4 /* Pods_AlamofireSample.framework */; };
+		E2194F441D4454110051A543 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2194F421D4454110051A543 /* Main.storyboard */; };
 		E29634A11D41068B006EFF97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29634A01D41068B006EFF97 /* AppDelegate.swift */; };
 		E29634A31D41068B006EFF97 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29634A21D41068B006EFF97 /* MainViewController.swift */; };
 		E29634A81D41068C006EFF97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E29634A71D41068C006EFF97 /* Assets.xcassets */; };
@@ -16,7 +17,6 @@
 		E2D81DBC1D41C61100A73FB7 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D81DBB1D41C61100A73FB7 /* MainTableViewCell.swift */; };
 		E2D81DBE1D42370200A73FB7 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D81DBD1D42370200A73FB7 /* DetailViewController.swift */; };
 		E2D81DC01D423CD600A73FB7 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D81DBF1D423CD600A73FB7 /* Util.swift */; };
-		E2D81DC21D42B56000A73FB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2D81DC11D42B56000A73FB7 /* Main.storyboard */; };
 		E2D81DC41D42F99500A73FB7 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D81DC31D42F99500A73FB7 /* MapViewController.swift */; };
 		E2D81DC61D43023900A73FB7 /* Fortaleza, Brasil.gpx in Resources */ = {isa = PBXBuildFile; fileRef = E2D81DC51D43023900A73FB7 /* Fortaleza, Brasil.gpx */; };
 		E2D81DCE1D43173200A73FB7 /* WebSiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D81DCD1D43173200A73FB7 /* WebSiteViewController.swift */; };
@@ -27,6 +27,7 @@
 /* Begin PBXFileReference section */
 		18AE20446BDB63D06F01899F /* Pods-AlamofireSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamofireSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlamofireSample/Pods-AlamofireSample.release.xcconfig"; sourceTree = "<group>"; };
 		97881908D1B9D101601333B4 /* Pods_AlamofireSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlamofireSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2194F431D4454110051A543 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E296349D1D41068B006EFF97 /* AlamofireSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlamofireSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E29634A01D41068B006EFF97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E29634A21D41068B006EFF97 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -37,7 +38,6 @@
 		E2D81DBB1D41C61100A73FB7 /* MainTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
 		E2D81DBD1D42370200A73FB7 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		E2D81DBF1D423CD600A73FB7 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
-		E2D81DC11D42B56000A73FB7 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../../../../../../../Users/rudsonlima/Desktop/Main.storyboard; sourceTree = "<group>"; };
 		E2D81DC31D42F99500A73FB7 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		E2D81DC51D43023900A73FB7 /* Fortaleza, Brasil.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Fortaleza, Brasil.gpx"; path = "../../../../Maps/maps-ios/Maps/Gpx/Fortaleza, Brasil.gpx"; sourceTree = "<group>"; };
 		E2D81DCD1D43173200A73FB7 /* WebSiteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebSiteViewController.swift; sourceTree = "<group>"; };
@@ -121,8 +121,8 @@
 		E2D81DB91D41C10A00A73FB7 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E2194F421D4454110051A543 /* Main.storyboard */,
 				E29634A91D41068C006EFF97 /* LaunchScreen.storyboard */,
-				E2D81DC11D42B56000A73FB7 /* Main.storyboard */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -248,10 +248,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2D81DC21D42B56000A73FB7 /* Main.storyboard in Resources */,
 				E29634AB1D41068C006EFF97 /* LaunchScreen.storyboard in Resources */,
 				E29634A81D41068C006EFF97 /* Assets.xcassets in Resources */,
 				E2D81DC61D43023900A73FB7 /* Fortaleza, Brasil.gpx in Resources */,
+				E2194F441D4454110051A543 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +326,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		E2194F421D4454110051A543 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2194F431D4454110051A543 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		E29634A91D41068C006EFF97 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
